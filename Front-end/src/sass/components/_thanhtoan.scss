@@ -1,0 +1,45 @@
+.containerPay {
+    position : absolute;
+    left     : 50%;
+    top      : 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="radio"] {
+    width        : 15px;
+    height       : 15px;
+    margin-right : 10px;
+    margin-top   : 30px;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-right: 20px;
+}
+
+.pPay {
+    font-size    : 20px;
+    margin-bottom: 20px;
+    margin-top   : 20px;
+}
+
+.rowPay h2 {
+    margin-bottom: 20px;
+}
+
+.rowPay button {
+    border          : 0;
+    outline         : 0;
+    color           : $btn-main-color;
+    font-size       : 1.5rem;
+    font-weight     : 600;
+    text-transform  : uppercase;
+    cursor          : pointer;
+    overflow        : hidden;
+    position        : relative;
+    margin-right    : 20px;
+    margin-bottom   : 20px;
+    background-color: $main-color;
+    width           : 250px;
+    height          : 40px;
+}

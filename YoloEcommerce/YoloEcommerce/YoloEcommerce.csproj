@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\UploadedImages\067eeeef-665d-4dbd-83b1-a01b19c34d94.jpg" />
+    <Content Remove="wwwroot\UploadedImages\1dbbe1eb-26fa-4d72-869d-aa366d8407e9.jpg" />
+    <Content Remove="wwwroot\UploadedImages\3f02ac55-79ee-46a1-8871-87bd516c8870.jpg" />
+    <Content Remove="wwwroot\UploadedImages\529f3de7-fd20-480b-9cc7-4ef06229a097.jpg" />
+    <Content Remove="wwwroot\UploadedImages\98db2dbf-2afa-4b60-ab81-68fcb4a303db.jpg" />
+    <Content Remove="wwwroot\UploadedImages\9ea46d93-802a-4634-968e-f69cd1df61c8.jpg" />
+    <Content Remove="wwwroot\UploadedImages\9f14f7c0-6787-4151-9f91-31a725e92dc8.jpg" />
+    <Content Remove="wwwroot\UploadedImages\d46f51a4-7491-4c95-9790-347f8c8f04bf.jpg" />
+    <Content Remove="wwwroot\UploadedImages\dca40051-6f39-4802-9e90-5d13aa2f3df6.jpg" />
+    <Content Remove="wwwroot\UploadedImages\fb59941c-bfb6-4a0a-9a31-a3671b4ceac3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controller\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\UploadedImages\067eeeef-665d-4dbd-83b1-a01b19c34d94.jpg" />
+    <None Include="wwwroot\UploadedImages\1dbbe1eb-26fa-4d72-869d-aa366d8407e9.jpg" />
+    <None Include="wwwroot\UploadedImages\3f02ac55-79ee-46a1-8871-87bd516c8870.jpg" />
+    <None Include="wwwroot\UploadedImages\529f3de7-fd20-480b-9cc7-4ef06229a097.jpg" />
+    <None Include="wwwroot\UploadedImages\98db2dbf-2afa-4b60-ab81-68fcb4a303db.jpg" />
+    <None Include="wwwroot\UploadedImages\9ea46d93-802a-4634-968e-f69cd1df61c8.jpg" />
+    <None Include="wwwroot\UploadedImages\9f14f7c0-6787-4151-9f91-31a725e92dc8.jpg" />
+    <None Include="wwwroot\UploadedImages\d46f51a4-7491-4c95-9790-347f8c8f04bf.jpg" />
+    <None Include="wwwroot\UploadedImages\dca40051-6f39-4802-9e90-5d13aa2f3df6.jpg" />
+    <None Include="wwwroot\UploadedImages\fb59941c-bfb6-4a0a-9a31-a3671b4ceac3.jpg" />
+  </ItemGroup>
+
+</Project>

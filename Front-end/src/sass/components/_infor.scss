@@ -1,0 +1,67 @@
+/* UserProfile.css */
+.user-profile {
+    display    : flex;
+    font-family: Arial, sans-serif;
+}
+
+.navigation-menu {
+    width           : 200px;
+    background-color: #f0f0f0;
+}
+
+.custom-sider .ant-layout-sider-trigger {
+    //position  : absolute;
+    /* Điều chỉnh vị trí theo ý muốn */
+    background: #8d8d8d;
+    /* Đặt màu nền cho nút */
+}
+
+.navigation-menu ul {
+    list-style: none;
+    padding   : 0;
+}
+
+.navigation-menu ul li {
+    padding      : 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navigation-menu .active {
+    background-color: #d9534f;
+    color           : white;
+}
+
+.profile-details {
+    flex-grow: 1;
+    padding  : 20px;
+}
+
+.profile-details h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group select {
+    width     : 100%;
+    padding   : 5px;
+    margin-top: 5px;
+
+}
+
+.profile-picture {
+    width     : 200px;
+    padding   : 20px;
+    text-align: center;
+}
+
+.profile-picture input {
+    margin-top: 10px;
+}

@@ -1,0 +1,119 @@
+.containerLogin {
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containerLogin h1 {
+    margin-bottom          : 100px;
+    font-size              : 50px;
+    text-align             : center;
+    background-image       : linear-gradient(to right, rgb(6, 76, 122), rgb(230, 182, 50));
+    -webkit-background-clip: text;
+    background-clip        : text;
+    color                  : transparent;
+    -webkit-text-fill-color: transparent;
+    animation              : textGradient 2s linear infinite;
+}
+
+@keyframes textGradient {
+    0% {
+        background-position: left;
+        /* Bắt đầu từ vị trí bên trái */
+    }
+
+    100% {
+        background-position: right;
+        /* Di chuyển đến vị trí bên phải */
+    }
+}
+
+.containerLogin input {
+    outline         : none;
+    background-color: rgba(26, 186, 207, 0.3);
+    border          : 1px solid rgba(26, 186, 207, 0.3);
+    height          : 40px;
+    margin-bottom   : 50px;
+    border-radius   : 10px;
+}
+
+.containerLogin button {
+    margin-bottom   : 20px;
+    width           : 120px;
+    height          : 40px;
+    border-radius   : 10px;
+    outline         : none;
+    border          : 1px solid rgba(26, 186, 207, 0.3);
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(26, 186, 207, 0.3), rgba(246, 187, 26, 0.3));
+    background-size : 200% 100%;
+    transition      : background-position 0.4s ease;
+}
+
+.containerLogin button:hover {
+    background-position: right;
+}
+
+.containerRegister {
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -40%);
+}
+
+.containerRegister h1 {
+    margin-bottom          : 50px;
+    font-size              : 50px;
+    text-align             : center;
+    background-image       : linear-gradient(to right, rgb(6, 76, 122), rgb(230, 182, 50));
+    -webkit-background-clip: text;
+    background-clip        : text;
+    color                  : transparent;
+    -webkit-text-fill-color: transparent;
+    animation              : textGradient 2s linear infinite;
+}
+
+@keyframes textGradient {
+    0% {
+        background-position: left;
+        /* Bắt đầu từ vị trí bên trái */
+    }
+
+    100% {
+        background-position: right;
+        /* Di chuyển đến vị trí bên phải */
+    }
+}
+
+.containerRegister input {
+    outline         : none;
+    background-color: rgba(26, 186, 207, 0.3);
+    border          : 1px solid rgba(26, 186, 207, 0.3);
+    height          : 40px;
+    border-radius   : 10px;
+    margin-bottom   : 10px;
+}
+
+.containerRegister button {
+    margin-top      : 50px;
+    margin-bottom   : 20px;
+    width           : 120px;
+    height          : 40px;
+    border-radius   : 10px;
+    outline         : none;
+    border          : 1px solid rgba(26, 186, 207, 0.3);
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(26, 186, 207, 0.3), rgba(246, 187, 26, 0.3));
+    background-size : 200% 100%;
+    transition      : background-position 0.4s ease;
+}
+
+.containerRegister button:hover {
+    background-position: right;
+}
+
+.errorLogin {
+    display: block;
+    color  : red;
+}

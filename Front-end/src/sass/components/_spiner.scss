@@ -1,0 +1,25 @@
+.spinner-container {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    height         : 100vh;
+    /* Đặt chiều cao tùy theo ý muốn */
+}
+
+.spinner {
+    width           : 50px;
+    /* Đặt kích thước của vòng tròn */
+    height          : 50px;
+    border-radius   : 50%;
+    border          : 3px solid #ccc;
+    border-top-color: #333;
+    animation       : spin 1s infinite linear;
+    /* Thiết lập animation vòng quay */
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+        /* Quay vòng tròn 360 độ */
+    }
+}

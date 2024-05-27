@@ -1,0 +1,53 @@
+.containerPH {
+    position : absolute;
+    left     : 50%;
+    transform: translateX(-50%);
+}
+
+.rowPH {
+    display: flex;
+}
+
+.block1 {
+    width        : 250px;
+    padding      : 20px;
+    margin-right : 50px;
+    border       : 1px solid gray;
+    border-radius: 10px;
+}
+
+.box {
+    border-bottom: 1px solid rgb(184, 184, 184);
+    margin-top   : 50px;
+}
+
+.box p {
+    margin-bottom: 20px;
+}
+
+.block2 {
+    width           : 600px;
+    height          : 600px;
+    background-color: #D82b8b;
+    position        : relative;
+}
+
+.thanhtoanbox {
+    position : absolute;
+    left     : 50%;
+    top      : 50%;
+    transform: translate(-50%, -50%);
+    color    : #fff;
+}
+
+.thanhtoanbox h3 {
+    font-size    : 25px;
+    margin-bottom: 20px;
+    margin-top   : 30px;
+}
+
+.quayve {
+    margin-top : 50px;
+    color      : #D82b8b;
+    margin-left: 80px;
+}
